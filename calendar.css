@@ -1,0 +1,111 @@
+#container {
+  padding: 30px;
+}
+body{
+  background-color: #272b36;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #191c26;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d9d5de;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidenav a:hover{
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span{
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+h1{
+  color: #ff615c;
+  margin-top: 50px;
+}
+h2{
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ff9752;
+  font-size: 40px;
+}
+
+hr{
+  width: 700px;
+  background-color: #d9d5de;
+  height: 3px;
+}
+
+p{
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ffba30;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.PPTli{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  margin: 20px;
+}
+a{
+  color: #ffba30;
+  text-decoration: none;
+}
+a:hover{
+  color: #d9d5de;
+  font-size: 32px;
+}
+
+.col1{
+  float: left;
+  margin-left: 150px;
+  text-align: left;
+}
+.col2{
+  float: right;
+  margin-right: 150px;
+  text-align: right;
+}
+.pdf{
+  padding: 20px;
+}
