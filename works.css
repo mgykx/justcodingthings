@@ -6,6 +6,7 @@ body{
   font-size: 20px;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
+  margin-bottom: 100px;
 }
 .sidenav {
   height: 100%;
@@ -33,6 +34,7 @@ body{
 
 .sidenav a:hover{
   color: white;
+  font-size: 33px;
 }
 
 .sidenav .closebtn {
