@@ -38,6 +38,7 @@ body{
 
 .sidenav a:hover{
   color: white;
+  font-size: 33px;
 }
 
 .sidenav .closebtn {

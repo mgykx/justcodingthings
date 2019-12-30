@@ -1,14 +1,10 @@
+#container {
+  padding: 30px;
+}
 body{
   background-color: #272b36;
-  font-family: 'IBM Plex Mono', monospace;
   font-size: 20px;
-  margin: 130px;
-  margin-top: 80px;
-}
-h1{
   font-family: 'Press Start 2P', cursive;
-  font-size: 50px;
-  color: #d9d5de;
   text-align: center;
 }
 .sidenav {
@@ -37,7 +33,6 @@ h1{
 
 .sidenav a:hover{
   color: white;
-  font-size: 33px;
 }
 
 .sidenav .closebtn {
@@ -50,41 +45,40 @@ h1{
 
 span{
   position: fixed;
-  left: 40px;
+  left: 20px;
   top: 50%;
   width: 30px;
   height: 30px;
   color: white;
 }
 
-.p1, .p3, .p5{
-  float: left;
-  margin: 30px;
-}
-.p2, .p4, .p6{
-  float: right;
-  margin: 30px;
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 
-.head{
-  color: #ffba30;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 15px;
-  text-align: right;
-}
 
-.name{
+h1{
+  color: #ff615c;
+}
+h2{
+  font-family: 'IBM Plex Mono', monospace;
   color: #ff9752;
-  font-family: 'Press Start 2P', cursive;
-  margin: 15px;
-  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-right: 40%;
 }
 
-.contact{
-  color: #ff615c;
+p{
+  font-family: 'IBM Plex Mono', monospace;
+  color: #d9d5de;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  transform: rotate(-90deg);
 }
-
-.num{
-  color: #ff615c;
+img{
+  width: 40%;
 }

@@ -97,14 +97,7 @@ a:hover{
 }
 
 .col1{
-  float: left;
-  margin-left: 150px;
-  text-align: left;
-}
-.col2{
-  float: right;
-  margin-right: 150px;
-  text-align: right;
+  margin: 100px;
 }
 .pdf{
   padding: 20px;
